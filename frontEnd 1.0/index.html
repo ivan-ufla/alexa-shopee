@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Smart Song Intelligence</h1>
+    </header>
+
+    <section>
+        <div>
+            <img id="imgMicro" src="microfone.png" alt="Imagem microfone" /> 
+            <button id="btnGravar">Gravar</button>
+            <button id="btnParar">Parar</button> 
+        </div>
+        <div id="chat">
+            <textarea id="txtChat" minlength=20  maxlength=2000 name="msgUser" rows=10 cols=25></textarea>
+            <button id="buttonChat"  onclick="iniciarChat()">Enviar</button>          
+        </div>
+    </section>
+
+    <div id="resp">
+        <h3>Resultados:</h3>
+        <textarea id="txtResp" minlength=20  maxlength=10000 name="msgUser" rows=10 cols=25></textarea>
+    </div>
+    <footer>
+        <p>&copy; AGI²</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

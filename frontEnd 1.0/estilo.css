@@ -1,0 +1,67 @@
+body, button {
+    background-color: #010810;
+    font: normal 15pt "Archivo", Arial;
+    color: #1b84b5;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+div {
+    padding: 20px;
+    margin: auto;
+    /*box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.378);/*deslocamento vertical, horizontal, espalhamento*/
+}
+
+#imgMicro {
+    width: 500px;
+    height: auto;
+    border-radius: 50px;
+}
+
+#buttonChat, #btnGravar, #btnParar {
+    margin-top: 20px;
+    width: 80px;
+    background-color: #1b84b5;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    align-self: center;
+    color:black
+}
+
+#buttonChat:hover, #btnGravar:hover, #btnParar:hover  {
+    background-color: #090b0d00;
+    border: 1px solid gray;
+    transition: 0.5s;
+    opacity: 0.5;
+    color: white;
+}
+
+textarea {
+    font: normal 15pt "Archivo", Arial;
+    border-radius: 10px;
+    border: none;
+    background-color: #1b84b5;
+}
+
+#txtChat {
+    width: 600px;
+    height: 300px;
+}
+
+#txtResp {
+    width: 800px;
+    height: 400px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
